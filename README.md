@@ -14,7 +14,7 @@ I really recommend configure your IDE/editor to use eslint and prettier to previ
 1. Get the template 🡇:
 
 ```bash
-degit https://github.com/lensanag/Template-vite-react-typescript project-name && cd project-name
+npx degit https://github.com/lensanag/Template-vite-react-typescript project-name && cd project-name
 ```
 
 2. Init git repository 🐙:
