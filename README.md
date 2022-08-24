@@ -59,11 +59,7 @@ Now you've got a new brand project 💯 configured to use with:
 - Just replace to equivalent command of your favorite package manager if you don't want to use npm (I personally prefer 'pnpm' 😎; if this is your case, be sure 'pnpm' is set to install peer dependencies automatically)
 - If you need avoid husky runs on CI environments: install the package 'if-ci' and update the property **scripts.prepare** on *package.json*:
 ```json
-"scripts": {
-...
 "prepare": "if-ci || husky install"
-...
-}
 ```
 
 ## IMPORTANT
