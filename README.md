@@ -35,7 +35,12 @@ npm install
 npm run prepare
 ```
 
-5. Commit changes ⚡:
+5. Stage all files ➕:
+```bash
+git add .
+```
+
+6. Commit changes ⚡:
 
 ```bash
 git commit -m 'startup project'
